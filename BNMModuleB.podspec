@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = "BNMModuleB"
-s.version          = "0.0.1"
+s.name             = "BNMModuleBProject"
+s.version          = "0.0.2"
 s.summary          = "BNMModuleB."
 s.description      = <<-DESC
                         This pod is a module which contains two testcase,
@@ -18,7 +18,7 @@ s.description      = <<-DESC
 s.homepage         = "http://www.baidu.com"
 s.license          = 'MIT'
 s.author           = "chenshuijin@baidu.com"
-s.source           = { :git => "https://github.com/csjhrdd11314/BNMLogin.git", :tag => s.version }
+s.source           = { :git => "https://github.com/csjhrdd11314/BNMModuleAProject.git", :tag => s.version }
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 s.public_header_files = "**/*.h"
